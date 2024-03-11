@@ -68,7 +68,7 @@
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
               <h2>Hi, I'm <span class="teal">Justin Fisher.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:black"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
               <h5>Self-driven programmer with a curious mind who enjoys learning and solving real-world problems.</h5>
             </div>
@@ -509,10 +509,13 @@
   <script src="./assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["Software Developer", "Python Enthusiast", "Fast Learner"],
+      strings: ["Software Engineer", "Fast Learner","ML Developer", "Python Enthusiast"],
       loop: true,
       typeSpeed: 80,
-      backSpeed: 40
+      backSpeed: 40,
+      css:{
+        color:'white'
+      },
     });
   </script>
 
@@ -530,7 +533,7 @@
       $(".button-collapse").sideNav({
         menuWidth: 190, // Default is 240
         edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        closeOnClick: true 
       })
     })
   </script>
