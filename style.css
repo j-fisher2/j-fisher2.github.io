@@ -553,6 +553,9 @@ small {
 .teal {
   background-color: #008073 !important;
 }
+.btn-floating{
+  opacity: 0.5;
+}
 
 /* .teal {
   background-color: #00695c !important;
